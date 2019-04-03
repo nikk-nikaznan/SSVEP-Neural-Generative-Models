@@ -2,7 +2,6 @@ import Data_prep
 from EEG_DCGAN import dcgan
 from EEG_VAE import vae
 from EEG_WGAN import wgan
-from fft_def import plot_fft
 import torch
 import numpy as np
 import time
