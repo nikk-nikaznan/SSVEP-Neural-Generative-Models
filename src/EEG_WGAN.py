@@ -22,7 +22,6 @@ parser.add_argument("--clip_value", type=float, default=0.01, help="lower and up
 parser.add_argument("--sample_interval", type=int, default=200, help="interval between image samples")
 parser.add_argument('--nz', type=int, default=64, help="size of the latent z vector used as the generator input.")
 opt = parser.parse_args()
-# print(opt)
 
 torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = True

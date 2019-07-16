@@ -108,8 +108,6 @@ def dcgan(datatrain, label, nseed):
 
     # Loss function
     adversarial_loss = nn.BCEWithLogitsLoss()
-    criterion = nn.MSELoss()
-    l1loss = nn.L1Loss()
 
     # Optimizer
     optimizer_Gen = torch.optim.Adam(generator.parameters(), lr=learning_rate, betas=(opt.b1, opt.b2))
@@ -186,7 +184,7 @@ def dcgan(datatrain, label, nseed):
                 errG.backward()
                 optimizer_Gen.step()
 
-                # print ("[Epoch %d/%d] [Batch %d/%d] [D loss: %f] [G loss: %f] " % (epoch, opt.n_epochs, i, len(dataloader), errD.item(), errG.item(), ))
+            print ("[Epoch %d/%d] [Batch %d/%d] [D loss: %f] [G loss: %f] " % (epoch, opt.n_epochs, i, len(dataloader), errD.item(), errG.item(), ))
 
 
     # generate the data
@@ -212,6 +210,3 @@ def dcgan(datatrain, label, nseed):
     new_data = np.asarray(new_data)
     print (new_data.shape)
     return new_data
-
-
-#
