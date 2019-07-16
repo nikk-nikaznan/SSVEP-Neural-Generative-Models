@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-import torchvision
 import numpy as np
 import os
 import random
