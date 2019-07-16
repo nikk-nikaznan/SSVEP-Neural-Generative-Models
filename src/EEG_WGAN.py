@@ -1,7 +1,6 @@
 import argparse
 import numpy as np
 import random
-import torchvision.transforms as transforms
 from torch.autograd import Variable
 import torch.nn as nn
 import torch.nn.functional as F
