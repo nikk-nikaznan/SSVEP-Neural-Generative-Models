@@ -1,11 +1,12 @@
 # SSVEP-Neural-Generative-Models
 
-Code to accompany our International Joint Conference on Neural Networks (IJCNN) paper entitled - Simulating Brain Signals: Creating Synthetic EEG Data via Neural-Based Generative Models for Improved SSVEP Classification.
+Code to accompany our International Joint Conference on Neural Networks (IJCNN) paper entitled -
+[Simulating Brain Signals: Creating Synthetic EEG Data via Neural-Based Generative Models for Improved SSVEP Classification](https://arxiv.org/pdf/1901.07429.pdf).
 
 The code is structured as follows:
 
 - `Data_pred.py ` contains functions to pre-proposes EEG data; 
-- `EEG_Gen.py ` A sample script showing how all models can be run to generate data ;
+- `EEG_Gen.py ` A sample script showing how all models can be run to generate data;
 - `EEG_DCGAN.py ` Our DCGAN based model for generating SSVEP-based EEG data;
 - `EEG_WGAN.py ` Our Wasserstein GAN based model for generating SSVEP-based EEG data;
 - `EEG_VAE.py ` Our Variational Autoencoder based model for generating SSVEP-based EEG data;
