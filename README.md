@@ -26,10 +26,12 @@ The code has been designed to support python 3.6+ only. The project has the foll
 Please cite the associated papers for this work if you use this code:
 
 ```
-@article{aznan2019simulating,
-  title={Simulating Brain Signals: Creating Synthetic EEG Data via Neural-Based Generative Models for Improved SSVEP Classification},
-  author={Aznan, Nik Khadijah Nik and Atapour-Abarghouei, Amir and Bonner, Stephen and Connolly, Jason and Moubayed, Noura Al and Breckon, Toby},
-  journal={arXiv preprint arXiv:1901.07429},
-  year={2019}
+@inproceedings{aznan2019simulating,
+  title={Simulating brain signals: Creating synthetic eeg data via neural-based generative models for improved ssvep classification},
+  author={Aznan, Nik Khadijah Nik and Atapour-Abarghouei, Amir and Bonner, Stephen and Connolly, Jason D and Al Moubayed, Noura and Breckon, Toby P},
+  booktitle={2019 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2019},
+  organization={IEEE}
 }
 ```
