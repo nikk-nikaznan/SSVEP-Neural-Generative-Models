@@ -37,25 +37,25 @@ def data_process(input_data):
 
 #data loading for training the generative model
 # class0
-data_class0 = [np.load('/home/nikkhadijah/SSVEP-Neural-Generative-Model/Sampledata/sampledata_class0.npy')] 
+data_class0 = [np.load('sampledata_class0.npy')] 
 data_class0 = np.concatenate(data_class0) 
-label_class0 = [np.load('/home/nikkhadijah/SSVEP-Neural-Generative-Model/Sampledata/samplelabel_class0.npy')] 
+label_class0 = [np.load('samplelabel_class0.npy')] 
 label_class0 = np.concatenate(label_class0)
 # pre-processing
 data_class0 = data_process(data_class0)
 
 # class1
-data_class1 = [np.load('/home/nikkhadijah/SSVEP-Neural-Generative-Model/Sampledata/sampledata_class1.npy')] 
+data_class1 = [np.load('sampledata_class1.npy')] 
 data_class1 = np.concatenate(data_class1) 
-label_class1 = [np.load('/home/nikkhadijah/SSVEP-Neural-Generative-Model/Sampledata/samplelabel_class1.npy')] 
+label_class1 = [np.load('samplelabel_class1.npy')] 
 label_class1 = np.concatenate(label_class1)
 # pre-processing
 data_class1 = data_process(data_class1) 
 
 # class2
-data_class2 = [np.load('/home/nikkhadijah/SSVEP-Neural-Generative-Model/Sampledata/sampledata_class2.npy')] 
+data_class2 = [np.load('sampledata_class2.npy')] 
 data_class2 = np.concatenate(data_class2) 
-label_class2 = [np.load('/home/nikkhadijah/SSVEP-Neural-Generative-Model/Sampledata/samplelabel_class2.npy')] 
+label_class2 = [np.load('samplelabel_class2.npy')] 
 label_class2 = np.concatenate(label_class2)
 # pre-processing
 data_class2 = data_process(data_class2) 
