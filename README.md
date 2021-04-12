@@ -11,7 +11,7 @@ The code is structured as follows:
 - `EEG_WGAN.py ` Our Wasserstein GAN based model for generating SSVEP-based EEG data;
 - `EEG_VAE.py ` Our Variational Autoencoder based model for generating SSVEP-based EEG data;
 
-The `Sampledata` directory contains some sample SSVEP EEG data on which the models can be trained. 
+The `Sampledata` directory contains some sample of synthetic SSVEP EEG data for data format purposed. 
 
 ## Dependencies and Requirements
 The code has been designed to support python 3.6+ only. The project has the following dependencies and version requirements:
